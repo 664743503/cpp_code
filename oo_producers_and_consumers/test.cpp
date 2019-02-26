@@ -1,6 +1,6 @@
 #include <iostream>
-#include <unistd.h>
 #include <memory>
+#include <unistd.h>
 #include "Thread.h"
 #include "TaskQueue.h"
 

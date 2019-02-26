@@ -16,7 +16,7 @@ bool TaskQueue::full() const
 
 bool TaskQueue::empty() const 
 {
-    return 0 == _queSize;
+    return 0 == _que.size();
 }
 
 void TaskQueue::push(Type & elem)
